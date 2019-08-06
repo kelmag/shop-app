@@ -6,13 +6,24 @@ const Header = () => {
     return (
         <styles.Wrap >
             <styles.Search >
-                <Icon value="fa-spin fa-spinner" />
+                <Icon value="fa-search" />
             </styles.Search>
-            <styles.NavBar ></styles.NavBar>
-            <styles.Title ></styles.Title>
-            <styles.Profile ></styles.Profile>
-            <styles.Favorite ></styles.Favorite>
-            <styles.Cart ></styles.Cart>
+            <styles.NavBar >
+                <Icon value="fa-bars" />
+                <span>Shop Category</span>
+            </styles.NavBar>
+            <styles.Title >
+                BICYCLE COMPANY
+            </styles.Title>
+            <styles.Profile >
+                <Icon value="fa-user-o" />
+            </styles.Profile>
+            <styles.Favorite >
+                <Icon value="fa-heart-o" />
+            </styles.Favorite>
+            <styles.Cart >
+                <Icon value="fa-shopping-cart" />
+            </styles.Cart>
         </styles.Wrap>
     );
 };
