@@ -12,7 +12,7 @@ import {
     Swipper,
 } from '../components/pages/landing'
 
-const App = () => {
+const Landing = () => {
     return (
         <Layout>
             <Swipper />
@@ -28,4 +28,4 @@ const App = () => {
     );
 };
 
-export default App;
+export default Landing;
