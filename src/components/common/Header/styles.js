@@ -23,7 +23,7 @@ export const Container = styled.div`
         justify-content: space-between;
         & > div {
         border: 0;
-            padding:20px;
+            padding:20px 15px;
         }
     }
 
