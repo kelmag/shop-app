@@ -15,7 +15,11 @@ import {
 const Landing = () => {
     return (
         <Layout>
-            <Swipper />
+            <Swipper
+                title="Awesome bicycle products"
+                button="More info"
+                right
+            />
             <AboutSection />
             <FeaturedSection />
             <ArticleSection />
