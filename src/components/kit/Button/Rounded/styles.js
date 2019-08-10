@@ -13,6 +13,7 @@ export const Wrap = styled.button`
     width:50px;
     height:50px;
     font-size:20pt;
+    z-index:9;
     @media (max-width: ${constants.screens.mid}) {
 
     }
