@@ -7,6 +7,7 @@ export default {
         normal: '14pt',
         big: '16pt',
         large: '24pt',
+        larger: '38pt',
         xLarge: '42pt',
     },
     weights: {
