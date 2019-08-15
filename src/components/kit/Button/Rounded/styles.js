@@ -5,7 +5,7 @@ export const Wrap = styled.button`
     border-radius: 50px;
     background-color: rgba(1,1,1,0.3);
     color:#fff;
-    border: 1px solid #fff;
+    ${({ bordered }) => bordered ? 'border: 1px solid #fff;' : 'border: none;'}
     position:absolute;
     top: 50%;
     right: ${({ right }) => right ? "20px" : "unset"};
