@@ -12,6 +12,9 @@ export const Wrap = styled.button`
     border:unset;
     padding: 20px 40px;
     box-shadow: 0px 0px 23px -8px #ccc;
+    i {
+        margin-right:5px;
+    }
     @media (max-width: ${({ theme }) => theme.screens.smaller}) {
         padding: 10px 20px;
         font-size: ${({ theme }) => theme.fonts.medium};
