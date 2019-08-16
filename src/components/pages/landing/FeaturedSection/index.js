@@ -5,7 +5,9 @@ import Card from './Card'
 const FeaturedSection = ({ title, products: { products } }) => {
     return (
         <div>
-            {title}
+            <styles.Title>
+                {title}
+            </styles.Title>
             <styles.CardWrap direction='row'>
                 <styles.CardWrap direction='column' flex="7" >
                     <Card className="rectangle" product={products[0]} color="lightGray" />
@@ -15,7 +17,6 @@ const FeaturedSection = ({ title, products: { products } }) => {
                     </styles.CardWrap>
                 </styles.CardWrap>
                 <Card className="portrait" flex="3" product={products[1]} color="darkerGray" />
-
             </styles.CardWrap>
         </div>
     );

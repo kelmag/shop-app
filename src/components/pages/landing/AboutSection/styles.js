@@ -36,5 +36,5 @@ export const Content = styled.div`
 
 export const Button = styled(Pill)`
         padding: 13px 50px;
-        color:#bbbbbb;
+        color:${({ theme }) => theme.colors.white};
 `;

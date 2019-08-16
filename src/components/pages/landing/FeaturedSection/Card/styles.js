@@ -67,6 +67,10 @@ export const BuyButton = styled(Pill)`
         color:${({ theme }) => theme.colors.lightBlack};
         padding:15px 30px;
         background-color:white;
+        @media (max-width: ${({ theme }) => theme.screens.mid}) {
+            height: 50px;
+            place-self: center;
+        }
 `;
 
 export const Wrap = styled.div`
