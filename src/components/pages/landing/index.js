@@ -1,5 +1,5 @@
 export { default as AboutSection } from './AboutSection'
-export { default as ArticleSection } from './ArticleSection'
+export { default as ShopByPartSection } from './ShopByPartSection'
 export { default as FeaturedSection } from './FeaturedSection'
 export { default as QuoteSection } from './QuoteSection'
 export { default as ShopSection } from './ShopSection'

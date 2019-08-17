@@ -2,7 +2,7 @@ import React from 'react';
 import Layout from 'templates/landing';
 import {
     AboutSection,
-    ArticleSection,
+    ShopByPartSection,
     FeaturedSection,
     QuoteSection,
     ShopSection,
@@ -12,6 +12,7 @@ import {
     Swipper,
 } from 'components/pages/landing'
 import products from 'data/products'
+import bikes from 'data/bikes'
 
 const Landing = () => {
     return (
@@ -29,7 +30,10 @@ const Landing = () => {
                 title="Featured products"
                 products={products}
             />
-            <ArticleSection />
+            <ShopByPartSection
+                title="Shop by parts"
+                bikes={bikes}
+            />
             <ShopSection />
             <QuoteSection />
             <SocialMediaSection />
