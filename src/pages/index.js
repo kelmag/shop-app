@@ -42,7 +42,10 @@ const Landing = () => {
             <QuoteSection />
             <SocialMediaSection />
             <SpecificShopSection />
-            <SubscribeSection />
+            <SubscribeSection
+                title="subscribe to our newsletter"
+                subtitle="Lorem ipsum something and something else"
+            />
         </Layout>
     );
 };
