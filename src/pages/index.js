@@ -34,7 +34,11 @@ const Landing = () => {
                 title="Shop by parts"
                 bikes={bikes}
             />
-            <ShopSection />
+            <ShopSection
+                title="Maintenance products"
+                description="We are one of the best bicycle companies in the world, We provide the best quality products of bicycle and no one can be compared to our service"
+                products={products}
+            />
             <QuoteSection />
             <SocialMediaSection />
             <SpecificShopSection />

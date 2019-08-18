@@ -18,7 +18,6 @@ const ShopSection = ({ title, description, products: { products } }) => {
                 )}
 
             </styles.CardsWrap>
-
         </styles.Wrapper>
     );
 };
