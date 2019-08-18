@@ -26,5 +26,17 @@ export default {
             price: '700',
             image: products.shockstop,
         },
+        {
+            category: 'Maintenance',
+            name: 'Bike light set',
+            price: '180',
+            image: products.bikeLight,
+        },
+        {
+            category: 'Maintenance',
+            name: 'light-weighted helmet',
+            price: '80',
+            image: products.Helmet,
+        },
     ],
 }
