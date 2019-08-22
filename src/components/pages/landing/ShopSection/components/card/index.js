@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import * as styles from './styles'
+import { ModalContext } from 'context/ModalContext'
 
 export default ({ product }) => {
+    const { setDisplayModal } = useContext(ModalContext);
     return (
         <styles.Wrapper >
             <styles.ProductInfo>
@@ -13,8 +15,13 @@ export default ({ product }) => {
                     <styles.Price className="price">
                         ${product.price}
                     </styles.Price>
-                    <styles.BuyButton value="Buy" icon="fa-shopping-cart" />
-                    <styles.LoveButton icon="fa-heart-o" />
+                    <styles.BuyButton
+                        value="Buy"
+                        icon="fa-shopping-cart"
+                        onClick={() => { setDisplayModal(true) }} />
+                    <styles.LoveButton
+                        icon="fa-heart-o"
+                        onClick={() => { setDisplayModal(true) }} />
                 </styles.Action>
             </styles.ProductInfo>
         </styles.Wrapper>
