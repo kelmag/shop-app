@@ -3,10 +3,6 @@ import styled from 'styled-components'
 export const Wrap = styled.div`
     display: flex;
     position:relative;
-    @media (max-width: ${({ theme }) => theme.screens.mid}) {
-
-    }
-
 `;
 
 export const Label = styled.span`

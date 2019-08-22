@@ -20,8 +20,6 @@ export const Button = styled(Pill)`
         width: fit-content;
         margin: 10px auto;
     }
-    @media (max-width: ${({ theme }) => theme.screens.mid}) {
-    }
 `;
 
 

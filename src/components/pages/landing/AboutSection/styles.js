@@ -23,8 +23,6 @@ export const Description = styled.p`
     color: ${({ theme }) => theme.colors.lightBlack};
     letter-spacing: .8px;
     margin-bottom:4rem;
-    @media (max-width: ${({ theme }) => theme.screens.tiny}) {
-    }
 `;
 export const Content = styled.div`
     flex:6;
