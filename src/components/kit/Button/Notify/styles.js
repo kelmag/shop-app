@@ -1,18 +1,18 @@
 import styled from 'styled-components'
-import constants from 'data/constants'
 
 export const Wrap = styled.div`
     display: flex;
     position:relative;
-    @media (max-width: ${constants.screens.mid}) {
+    @media (max-width: ${({ theme }) => theme.screens.mid}) {
 
     }
 
 `;
+
 export const Label = styled.span`
     position:absolute;
-    background-color: ${constants.colors.red};
-    color: ${constants.colors.light};
+    background-color: ${({ theme }) => theme.colors.red};
+    color: ${({ theme }) => theme.colors.light};
     font-size: 11pt;
     font-weight: 900;
     max-width: 20px;

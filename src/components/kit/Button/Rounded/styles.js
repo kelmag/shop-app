@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import constants from 'data/constants'
 
 export const Wrap = styled.button`
     border-radius: 50px;
@@ -14,15 +13,12 @@ export const Wrap = styled.button`
     height:50px;
     font-size:20pt;
     z-index:9;
-    @media (max-width: ${constants.screens.mid}) {
-
-    }
-
 `;
+
 export const Label = styled.span`
     position:absolute;
-    background-color: ${constants.colors.red};
-    color: ${constants.colors.light};
+    background-color: ${({ theme }) => theme.colors.red};
+    color: ${({ theme }) => theme.colors.light};
     font-size: 11pt;
     font-weight: 900;
     max-width: 20px;

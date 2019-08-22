@@ -39,9 +39,9 @@ const Landing = () => {
                 description="We are one of the best bicycle companies in the world, We provide the best quality products of bicycle and no one can be compared to our service"
                 products={products}
             />
-            <QuoteSection />
+            {/* <QuoteSection />
             <SocialMediaSection />
-            <SpecificShopSection />
+            <SpecificShopSection /> */}
             <SubscribeSection
                 title="subscribe to our newsletter"
                 subtitle="Lorem ipsum something and something else"

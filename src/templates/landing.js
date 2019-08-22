@@ -7,7 +7,9 @@ const Layout = ({ children }) => {
         <Container>
             <Header title={title}></Header>
             {children}
-            <Footer></Footer>
+            <Footer
+                title={title}
+            />
         </Container>
     );
 };

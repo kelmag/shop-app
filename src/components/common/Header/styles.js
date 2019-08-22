@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import constants from 'data/constants'
 import { Notify } from 'components/kit/Button'
 
 export const Wrap = styled.div`
@@ -19,7 +18,7 @@ export const Container = styled.div`
         border-right: 1px solid #3D3D3D;
         padding:30px;
     }
-    @media (max-width: ${constants.screens.mid}) {
+    @media (max-width: ${({ theme }) => theme.screens.mid}) {
         justify-content: space-between;
         & > div {
         border: 0;
@@ -36,7 +35,7 @@ export const NavBar = styled.div`
         display: inline-block;
         margin-left:30px;
     }
-    @media (max-width: ${constants.screens.tiny}) {
+    @media (max-width: ${({ theme }) => theme.screens.tiny}) {
         & > span {
             display:none;
         }
@@ -48,7 +47,7 @@ export const Mobile = styled.div`
     text-align:center;
     display:none;
     font-family: cursive;
-    @media (max-width: ${constants.screens.mid}) {
+    @media (max-width: ${({ theme }) => theme.screens.mid}) {
         display: block;
     }
 `;
@@ -57,14 +56,14 @@ export const Title = styled.div`
     text-align:center;
     text-transform: uppercase;
     font-family: cursive;
-    @media (max-width: ${constants.screens.medium}) {
+    @media (max-width: ${({ theme }) => theme.screens.medium}) {
         & {
             padding: 17px!important;
             font-size: 22px;
             line-height: 63px;
         }
     }
-    @media (max-width: ${constants.screens.mid}) {
+    @media (max-width: ${({ theme }) => theme.screens.mid}) {
         display:none;
     }
 `;
